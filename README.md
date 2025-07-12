@@ -48,7 +48,7 @@ python3 main.py PATH/TO/frankenstein.txt
 
 ---
 
-## 💡 Customization & Next Steps
+## 💡 TODO
 
 - Analyze multiple files in a folder  
 - Filter only `.txt` files or add support for `.md`, `.pdf`, etc.
