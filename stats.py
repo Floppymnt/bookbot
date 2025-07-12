@@ -28,9 +28,9 @@ def count_characters(content):
 
 
 
-def report(content):
+def report(content, path2file):
     char_count, dictionary_list = count_characters(content)
-    print(f"============ BOOKBOT ============\nAnalyzing book found at books/frankenstein.txt...\n----------- Word Count ----------\nFound {get_word_count(content)} total words\n--------- Character Count -------")
+    print(f"============ BOOKBOT ============\nAnalyzing book found at {path2file}...\n----------- Word Count ----------\nFound {get_word_count(content)} total words\n--------- Character Count -------")
     
     #for each dictionary in the list print the char and count but only if isaphabetical
     for item in dictionary_list:
