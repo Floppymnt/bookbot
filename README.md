@@ -34,7 +34,7 @@ cd bookbot
 2. **Add your book/text file**
 
 - Create a `books/` directory (or similar)
-- Place `.txt` files inside, e.g.:
+- Place `.txt` files inside, (e.g., frankenstein.txt):
 
 ---
 
